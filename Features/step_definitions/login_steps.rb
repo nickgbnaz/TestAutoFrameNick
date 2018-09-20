@@ -10,5 +10,5 @@ When(/^I login with correct credentials$/) do
 end
 
 Then(/^I am logged into the secure area$/) do
-  expect(page).to have_text('You logged into a secure area!'), 'Access denied'
+  expect(page).to have_text('You logged into a asecure area!'), 'Access denied'
 end
