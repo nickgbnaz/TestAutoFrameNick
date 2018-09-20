@@ -1,0 +1,119 @@
+[
+  {
+    "uri": "C:/Users/NicolausN/RubymineProjects/TestAutoFrameNick/Features/checkbox.feature",
+    "id": "checkbox-page",
+    "keyword": "Feature",
+    "name": "Checkbox Page",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@checkboxes",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "checkbox-page;checkboxes",
+        "keyword": "Scenario",
+        "name": "Checkboxes",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@checkboxes",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.10.1/lib/capybara/cucumber.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23325
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.10.1/lib/capybara/cucumber.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48356
+            }
+          },
+          {
+            "match": {
+              "location": "Features/support/env.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47167702
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I visit the checkbox page",
+            "line": 5,
+            "match": {
+              "location": "Features/step_definitions/Checkbox_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8979490140
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I tick the first checkbox",
+            "line": 6,
+            "match": {
+              "location": "Features/step_definitions/Checkbox_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 189185368
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the first checkbox is ticked",
+            "line": 7,
+            "match": {
+              "location": "Features/step_definitions/Checkbox_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53364322
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "Features/support/env.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15360
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.10.1/lib/capybara/cucumber.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 660926105
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
