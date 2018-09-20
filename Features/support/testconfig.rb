@@ -20,7 +20,6 @@ class TestConfig
     @@testconfig[key] = value
   end
 
-
 end
 
 TestConfig.load(ENV['TEST_ENV'])
