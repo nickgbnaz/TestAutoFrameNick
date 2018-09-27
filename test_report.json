@@ -1,6 +1,6 @@
 [
   {
-    "uri": "C:/Users/NicolausN/RubymineProjects/TestAutoFrameNick/Features/checkbox.feature",
+    "uri": "C:/Users/NicolausN/RubymineProjects/TestAutoFrameNick/features/checkbox.feature",
     "id": "checkbox-page",
     "keyword": "Feature",
     "name": "Checkbox Page",
@@ -33,7 +33,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23325
+              "duration": 15360
             }
           },
           {
@@ -42,16 +42,16 @@
             },
             "result": {
               "status": "passed",
-              "duration": 48356
+              "duration": 21618
             }
           },
           {
             "match": {
-              "location": "Features/support/env.rb:9"
+              "location": "features/support/env.rb:9"
             },
             "result": {
               "status": "passed",
-              "duration": 47167702
+              "duration": 41168533
             }
           }
         ],
@@ -61,11 +61,11 @@
             "name": "I visit the checkbox page",
             "line": 5,
             "match": {
-              "location": "Features/step_definitions/Checkbox_steps.rb:1"
+              "location": "features/step_definitions/checkbox_steps.rb:5"
             },
             "result": {
               "status": "passed",
-              "duration": 8979490140
+              "duration": 7319141534
             }
           },
           {
@@ -73,11 +73,11 @@
             "name": "I tick the first checkbox",
             "line": 6,
             "match": {
-              "location": "Features/step_definitions/Checkbox_steps.rb:5"
+              "location": "features/step_definitions/checkbox_steps.rb:9"
             },
             "result": {
               "status": "passed",
-              "duration": 189185368
+              "duration": 200776705
             }
           },
           {
@@ -85,22 +85,22 @@
             "name": "the first checkbox is ticked",
             "line": 7,
             "match": {
-              "location": "Features/step_definitions/Checkbox_steps.rb:10"
+              "location": "features/step_definitions/checkbox_steps.rb:16"
             },
             "result": {
               "status": "passed",
-              "duration": 53364322
+              "duration": 39783003
             }
           }
         ],
         "after": [
           {
             "match": {
-              "location": "Features/support/env.rb:27"
+              "location": "features/support/env.rb:27"
             },
             "result": {
               "status": "passed",
-              "duration": 15360
+              "duration": 35840
             }
           },
           {
@@ -109,7 +109,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 660926105
+              "duration": 574004543
             }
           }
         ]
